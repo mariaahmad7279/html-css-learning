@@ -1,0 +1,39 @@
+body{
+    font-size: 24px;
+}
+.wrapper{
+width: 1024px;
+margin: 0px auto;
+}
+.main{
+    width: 100%;
+    float: left;
+}
+img{
+    width: 100%;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    border: 2px solid #555 0px 2px solid #555 0px;
+}
+p.logo{
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding:10px 0px ;
+    color: #fff;
+    font-size: 2em;
+    background-color: #555;
+     font-family: "Playwrite HU", cursive;
+}
+h1{
+    float: left;
+    width: 100%;
+    font-size: 2em;
+    color: #555;
+     font-family: "Playwrite HU", cursive;
+}
+p.para{
+    width: 100%;
+    float: left;
+
+}
