@@ -1,0 +1,18 @@
+.text{
+    width: 300px;
+    height: 300px;
+    border: 5px solid red;
+        overflow: auto;
+    
+}
+.img{
+    width: 220px;
+    height: 160px;
+    overflow: visible;
+    border: 5px solid greenyellow;
+    overflow: scroll;
+}
+body{
+    float: left;
+    margin: 25px auto;
+}
