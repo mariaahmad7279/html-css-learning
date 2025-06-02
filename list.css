@@ -1,0 +1,15 @@
+body{
+    font-size: 20px;
+}
+p{
+    background-color: red;
+    color: #fff;
+}
+ul{
+list-style-type:square;
+list-style-position: inside;
+list-style-image: url(./firniture/images/images\ \(1\).jpg);
+}
+image{
+    font-size: 5px;
+}
