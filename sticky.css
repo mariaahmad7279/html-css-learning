@@ -10,8 +10,7 @@ float: left;
 body{
     background-color: #ddd;
     font-size: 20px;
-    width: 100%;
-    margin: auto;
+   
 }
 .nav ul li{
     background-color: #000;

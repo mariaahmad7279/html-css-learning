@@ -1,0 +1,38 @@
+h1{
+    margin-bottom: 30px;
+
+}
+p{
+    margin-top: 10px;
+    display: inline;
+}
+.fati{
+    background-color: red;
+    color: #fff;
+    display: block;
+    span{
+        display: inherit;
+        background-color: aqua;
+    }
+}
+.moto{
+    background-color: greenyellow;
+    color: #000;
+    display: block;
+    span{
+        background-color: plum;
+        display: list-item;
+    }
+    
+}
+.ahmi{
+    background-color: orange;
+    color: #000;  
+}
+span{
+    display: block;
+}
+.ahmi  span .mari{
+    display: initial;
+    background-color:olive ;
+}
