@@ -1,0 +1,16 @@
+.fati{
+    visibility: visible;
+}
+.ahmi{
+    visibility: hidden;
+}
+.mari{
+    visibility: visible;
+}
+.zari{
+   
+     display: none;
+}
+span{
+    background-color: red;
+}
