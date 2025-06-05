@@ -1,0 +1,19 @@
+ .intro{
+    width: 600px;
+    height: 200px;
+    float: left;
+} .last{
+     width: 600px;
+    height: 200px;
+    float: right;
+}
+.four{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+.one{
+    width: 600px;
+    height: 200px;
+    float: left;
+}
