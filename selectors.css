@@ -1,0 +1,41 @@
+/*h1{
+    color: red;
+    
+}
+h2{
+    color: yellow;
+}
+h3{
+    color: green;
+}
+#box{
+    color: white;
+    background-color: pink;
+}
+.clip{
+    font-size:40px;
+}
+*{
+    margin: auto;
+    padding: 10px;
+}
+h4,h5,h6{
+    background-color: black;
+    color: yellow;
+} */
+.box1 span{
+color: red;
+}
+.box1 > h1{
+    color: pink;
+}
+h4 + p{
+    color: aquamarine;
+}
+h5 ~ p{
+    color: brown;
+}
+ input[type="email"]{
+    border: 3px solid gray;
+    
+}
