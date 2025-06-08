@@ -1,0 +1,25 @@
+.box1 ,.box2{
+    border: 2px solid gray;
+    padding: 25px 10px;
+}
+.container p:first-child{
+    color: red;
+}
+.container p:last-child{
+    color: purple;
+}.container p:last-of-type{
+    color: yellowgreen;
+}.container p:nth-child(3){
+    color: palevioletred;
+}
+.container :only-of-type{
+    color: aquamarine;
+}
+.container :empty{
+    background-color: blue;
+    color: white;
+    width: 200px;
+    height: 200px;
+}.container :not(p){
+    color:orange;
+}
