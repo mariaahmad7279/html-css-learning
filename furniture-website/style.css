@@ -1,0 +1,540 @@
+/* Start header style */
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: auto;
+}
+
+.furniture {
+  h1 {
+    margin: 0;
+    font-size: 29px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+  }
+
+  p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+  }
+}
+
+.header-nav {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.head {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat, sans-serif;
+}
+
+.search {
+  font-size: 19px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  font-family: Montserrat, sans-serif;
+  width: 50px;
+  height: 50px;
+  align-content: center;
+  text-align: center;
+}
+
+.search:hover {
+  background-color: rgb(119, 119, 119);
+  clip-path: circle();
+  font-weight: 400;
+  font-size: 16px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.cart-badge {
+  font-size: 19px;
+
+  color: rgb(0, 0, 0);
+
+  width: 50px;
+  height: 50px;
+  align-content: center;
+  text-align: center;
+}
+
+.cart-badge:hover {
+  background-color: rgb(119, 119, 119);
+  clip-path: circle();
+
+  font-size: 16px;
+}
+/* End header style */
+
+/*start common style*/
+.para-typo {
+  color: rgb(119, 119, 119);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  line-height: 28px;
+}
+
+.heading-typo {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Frank Ruhl Libre, serif;
+}
+.home-button {
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+  padding: 10px;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+.h3-heading {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+}
+
+.price {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 300;
+  font-family: Montserrat, sans-serif;
+}
+/*end common style*/
+/* start index page*/
+.home-page {
+  .background {
+    background-image: url(./images/hero-banner-homepage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .white {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: white;
+    padding-inline: 20px;
+    max-width: 322px;
+
+    h4 {
+      color: rgb(0, 0, 0);
+      font-size: 14px;
+      font-weight: 600;
+      font-family: Montserrat, sans-serif;
+      margin: 0;
+    }
+  }
+
+  .white-div {
+    width: 1140px;
+    margin: auto;
+    padding: 100px;
+  }
+  .sofa-collection {
+    padding-top: 50px;
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    gap: 50px;
+  }
+
+  .black-marble {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 100px;
+
+    .para-typo,
+    .home-button {
+      margin-left: 121px;
+    }
+
+    .heading-typo {
+      font-size: 70px;
+      margin-left: -105px;
+    }
+  }
+
+  .home-page {
+    margin: 0;
+  }
+
+  .new-arrivals {
+    width: 1140px;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+
+  .home-work {
+    display: flex;
+
+    .heading-typo {
+      font-size: 70px;
+      margin-right: -100px;
+      text-align: right;
+      isolation: isolate;
+    }
+
+    .para-typo {
+      margin-left: 270px;
+    }
+  }
+
+  .trends-2020 {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+    .products {
+      display: flex;
+      width: 1140px;
+      flex-wrap: wrap;
+
+      padding-top: 30px;
+      justify-content: space-between;
+
+      img {
+        width: 250px;
+        height: 250px;
+      }
+    }
+  }
+}
+
+/*end index page style*/
+/* start footer style*/
+.footer {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 100px;
+
+  h4 {
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+  }
+
+  p {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+  }
+
+  .themify {
+    text-align: center;
+    padding-top: 30px;
+  }
+}
+/*end footer style*/
+/*start scroll-up style*/
+.scroll-up {
+  bottom: 0px;
+  right: 5px;
+  position: fixed;
+  align-content: center;
+  text-align: center;
+  clip-path: circle();
+  height: 50px;
+  width: 50px;
+  background-color: black;
+
+  .fas.fa-arrow-up {
+    color: white;
+  }
+}
+/*end scroll-up style*/
+/*start about page style*/
+.about-page {
+  .about {
+    width: 1140px;
+    margin: auto;
+    padding-top: 100px;
+  }
+
+  .about-banner {
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    padding-top: 50px;
+
+    .heading-typo {
+      margin-right: -60px;
+      text-align: right;
+      isolation: isolate;
+    }
+  }
+  .simple-functn-trend {
+    width: 1140px;
+    margin: auto;
+    padding-top: 50px;
+
+    .three-section {
+      display: flex;
+
+      gap: 30px;
+    }
+
+    .h3-heading {
+      color: rgb(0, 0, 0);
+      font-size: 27px;
+      font-weight: 700;
+      font-family: Frank Ruhl Libre, serif;
+      width: 250px;
+      align-content: center;
+      height: 70px;
+      background-color: aliceblue;
+    }
+
+    .function,
+    .simplicity,
+    .trendy {
+      /* background-image: url(./images/functionality.jpg);*/
+      width: 450px;
+      height: 350px;
+      background-repeat: no-repeat;
+      position: relative;
+      align-content: center;
+    }
+
+    .simplicity {
+      background-image: url(./images/simplicity.jpg);
+    }
+
+    .function {
+      background-image: url(./images/functionality.jpg);
+    }
+
+    .trendy {
+      background-image: url(./images/trendy.jpg);
+    }
+  }
+
+  .trend-section {
+    width: 1140px;
+    margin: auto;
+    padding-top: 30px;
+
+    .main-trend {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .trend-div {
+      width: 200px;
+      height: 100px;
+      background-color: #f0f0f0;
+      margin: 0;
+    }
+
+    .single-chr {
+      font-style: italic;
+      font-size: 112px;
+      margin: -50px 0 0 0;
+      text-align: center;
+    }
+
+    .h3-heading {
+      color: rgb(0, 0, 0);
+      font-size: 27px;
+      font-weight: 700;
+      font-family: Frank Ruhl Libre, serif;
+    }
+  }
+
+  .carpenter {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+
+    .heading-typo-2 {
+      color: rgb(0, 0, 0);
+      font-size: 22px;
+      font-weight: 700;
+      font-family: Montserrat, sans-serif;
+      line-height: 29px;
+    }
+
+    .heading-typo {
+      margin-left: -148px;
+    }
+
+    .carpenter-services {
+      margin-left: 150px;
+    }
+  }
+
+  .career {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding-top: 80px;
+    justify-content: space-between;
+
+    .heading-typo {
+      font-size: 70px;
+      text-align: right;
+      margin-right: -60px;
+      isolation: isolate;
+    }
+
+    .hiring-subsection {
+      margin-right: 50px;
+      text-align: right;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+/*end about page style*/
+/*start shop page style*/
+.shop-page {
+  .shop {
+    width: 1140px;
+    margin: auto;
+    padding-top: 40px;
+
+    span {
+      color: rgb(119, 119, 119);
+    }
+  }
+
+  .SHOP {
+    width: 1140px;
+    margin: auto;
+
+    .heading-typo {
+      margin-top: 0px;
+      color: rgb(0, 0, 0);
+      font-size: 51px;
+      font-weight: 700;
+      font-family: Frank Ruhl Libre, serif;
+    }
+  }
+
+  .default-hover {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+
+    .para-typo {
+      color: rgb(119, 119, 119);
+      font-size: 16px;
+      font-weight: 400;
+      font-family: Montserrat, sans-serif;
+      line-height: 28px;
+    }
+
+    select.para-typo {
+      appearance: none;
+      border: 0;
+      border-bottom: 1px solid #777;
+    }
+
+    .products-sorting {
+      position: relative;
+    }
+
+    .fas.fa-angle-down {
+      color: #777;
+      right: 12px;
+      position: absolute;
+    }
+  }
+
+  .furniture-shop {
+    width: 1140px;
+    margin: auto;
+
+    .products {
+      display: flex;
+      width: 1140px;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding-top: 30px;
+
+      img {
+        width: 250px;
+        height: 250px;
+      }
+    }
+
+    .h3-heading {
+      color: rgb(0, 0, 0);
+      font-size: 18px;
+      font-weight: 400;
+      font-family: Montserrat, sans-serif;
+    }
+
+    .price {
+      color: rgb(0, 0, 0);
+      font-size: 16px;
+      font-weight: 300;
+      font-family: Montserrat, sans-serif;
+    }
+
+    .home-button {
+      color: rgb(0, 0, 0);
+      font-size: 13px;
+      font-weight: 400;
+      font-family: Montserrat, sans-serif;
+      padding: 10px;
+
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+/*end shop page style*/
+.contact-page {
+  margin: 0;
+  .header {
+    margin-bottom: 10px;
+  }
+  .contact-banner {
+    background-image: url(./contact-us-banner.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 12%;
+    padding-bottom: 12%;
+  }
+  .contact .heading-typo {
+    color: rgb(249, 246, 246);
+    font-size: 70px;
+    font-weight: 900;
+    font-family: Frank Ruhl Libre, serif;
+  }
+}
