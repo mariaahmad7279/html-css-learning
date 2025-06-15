@@ -245,8 +245,8 @@
   }
 
   .themify {
+    padding-top: 20px;
     text-align: center;
-    padding-top: 30px;
   }
 }
 /*end footer style*/
@@ -518,23 +518,113 @@
   }
 }
 /*end shop page style*/
+/*start contact page style*/
 .contact-page {
   margin: 0;
   .header {
     margin-bottom: 10px;
   }
   .contact-banner {
-    background-image: url(./contact-us-banner.jpg);
+    background-image: url(./images/contact-us-banner.jpg);
     width: 100%;
-    background-size: cover;
+
     background-repeat: no-repeat;
     padding-top: 12%;
     padding-bottom: 12%;
   }
-  .contact .heading-typo {
+  .contact {
+    width: 1140px;
+    margin: auto;
+  }
+  .heading-typo {
     color: rgb(249, 246, 246);
     font-size: 70px;
     font-weight: 900;
     font-family: Frank Ruhl Libre, serif;
   }
+  h3 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Frank Ruhl Libre, serif;
+    line-height: 42px;
+  }
+  .corporate {
+    width: 1140px;
+    margin: auto;
+  }
+  span {
+    color: rgb(0, 0, 0);
+  }
+  .information {
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+
+    .heading-typo-2 {
+      color: rgb(0, 0, 0);
+      font-size: 22px;
+      font-weight: 700;
+      font-family: Montserrat, sans-serif;
+      line-height: 29px;
+    }
+
+    .heading-typo {
+      margin-right: -70px;
+      isolation: isolate;
+      color: rgb(0, 0, 0);
+    }
+    .information-services {
+      margin-left: 50px;
+    }
+  }
 }
+.form-section {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  margin-top: 100px;
+  .form {
+    margin-top: 100px;
+  }
+  .heading-typo {
+    margin-right: -75px;
+    text-align: right;
+    isolation: isolate;
+    color: rgb(0, 0, 0);
+  }
+
+  .required {
+    color: red;
+  }
+
+  input,
+  textarea {
+    outline: 0;
+    border-right: 0;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+  }
+
+  button {
+    margin-top: 30px;
+    width: 120px;
+    padding: 12px;
+    background: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    opacity: 0.9;
+  }
+}
+
+/*end contact page style*/
